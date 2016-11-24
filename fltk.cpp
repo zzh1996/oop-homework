@@ -1,6 +1,6 @@
-#include<FL/Fl.h>
-#include<FL/Fl_Box.h>
-#include<FL/Fl_Window.h>
+#include<FL/Fl.H>
+#include<FL/Fl_Box.H>
+#include<FL/Fl_Window.H>
 
 int main(){
 	Fl_Window window(200,200,"Title");
