@@ -41,7 +41,7 @@ int main() {
     file_b1.close();
 
     vector<string> m;
-    merge(a.begin(), a.end(), b.begin(), b.end(), back_inserter(m));
+    merge(a.begin(), a.end(), b.begin(), b.end(), back_inserter(m), cmp);
     last = unique(m.begin(), m.end());
     m.erase(last, m.end());
 
